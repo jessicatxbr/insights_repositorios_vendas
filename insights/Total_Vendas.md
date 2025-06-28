@@ -24,6 +24,28 @@ invoice_id: número da nota fiscal
 
 ![image](https://github.com/user-attachments/assets/1ebab5e4-67d9-44d7-b288-e5fd73250172)
 
+**Código**
+- Python:
+
+import pandas as pd
+import os
+
+#Caminhos dos arquivos
+arquivos = [
+    "/mnt/data/Meganium_Sales_Data_-_AliExpress.csv",
+    "/mnt/data/Meganium_Sales_Data_-_Etsy.csv",
+    "/mnt/data/Meganium_Sales_Data_-_Shopee.csv",
+    "/mnt/data/Updated_Anbernic_Sales_Data.csv",
+    "/mnt/data/Meganium_Sales_Data.csv"
+]
+
+#Lê todos os arquivos em um único DataFrame
+dfs = [pd.read_csv(arquivo) for arquivo in arquivos]
+df_total = pd.concat(dfs, ignore_index=True)
+
+#Verifica as colunas disponíveis
+df_total.columns
+
 ## Prompt 2
 *Transforme essa análise em resultado conclusivo*
 
