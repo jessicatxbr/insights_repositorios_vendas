@@ -12,15 +12,15 @@ O desempenho de vendas do NEW MEGANIUM RG 40XXV se destaca entre os demais itens
 **Código** 
 - Python:
 
-# Remover entradas com valores ausentes nas colunas relevantes
+#Remover entradas com valores ausentes nas colunas relevantes
 df = df.dropna(subset=['product_sold', 'quantity'])
 
-# Agrupar por produto e somar as quantidades vendidas
+#Agrupar por produto e somar as quantidades vendidas
 produtos_mais_vendidos = df.groupby('product_sold')['quantity'].sum().reset_index()
 
-# Ordenar do mais vendido para o menos vendido
+#Ordenar do mais vendido para o menos vendido
 produtos_mais_vendidos = produtos_mais_vendidos.sort_values(by='quantity', ascending=False).reset_index(drop=True)
 
-# Exibir o produto mais vendido
+#Exibir o produto mais vendido
 produto_top = produtos_mais_vendidos.iloc[0]
 produto_top
