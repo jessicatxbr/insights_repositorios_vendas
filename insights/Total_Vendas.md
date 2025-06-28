@@ -1,7 +1,7 @@
 # Cálculo do Valor Total de Vendas
 
 ## Prompt 1
-*Calcule o valor total das vendas por mês
+* Calcule o valor total das vendas por mês
 
 ** Resposta - informação em texto, conforme instruções
 As colunas disponíveis nos dados são:
