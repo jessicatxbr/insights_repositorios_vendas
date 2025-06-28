@@ -1,9 +1,9 @@
 # Cálculo do Valor Total de Vendas
 
 ## Prompt 1
-* Calcule o valor total das vendas por mês
+*Calcule o valor total das vendas por mês
 
-** Resposta - informação em texto, conforme instruções
+**Resposta - informação em texto, conforme instruções
 As colunas disponíveis nos dados são:
 SKU: código do produto
 product_sold: nome do produto vendido
@@ -20,14 +20,15 @@ buyer_name: nome do comprador
 delivery_country: país de entrega
 invoice_id: número da nota fiscal
 
-** Resposta - Informação em planilha, conforme instruções
+**Resposta - Informação em planilha, conforme instruções
 
 ![image](https://github.com/user-attachments/assets/1ebab5e4-67d9-44d7-b288-e5fd73250172)
 
 ## Prompt 2
-* Transforme essa análise em resultado conclusivo
+*Transforme essa análise em resultado conclusivo
 
-** Resposta - Em texto, conforme instruções + estrutura da pergunta
+**Resposta - Em texto, conforme instruções + estrutura da pergunta
+
 Com base nos dados de vendas consolidados entre diferentes plataformas (AliExpress, Etsy, Shopee e outros canais da marca Meganium e Anbernic), foi possível calcular o valor total das vendas mensais em Reais (R$). A análise apresenta os seguintes resultados:
 Em maio de 2024, as vendas totalizaram aproximadamente R$ 9.820, representando o menor volume mensal no período analisado.
 Em junho de 2024, houve um crescimento expressivo, com vendas totalizando R$ 23.450, mais que o dobro do mês anterior.
