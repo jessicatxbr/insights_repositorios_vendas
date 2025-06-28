@@ -2,7 +2,7 @@
 
 ## Link da Execução do Projeto no GPT
 - https://chatgpt.com/g/g-685f60570784819183834081165204fb-sales-analysis
-- https://chatgpt.com/share/685f6a00-1d1c-800a-890b-14ce87379049 (chat)
+- https://chatgpt.com/share/685f7f3a-de40-800a-8641-1e6d83722e25 (chat)
 
 ## Conclusões obtidas
 
