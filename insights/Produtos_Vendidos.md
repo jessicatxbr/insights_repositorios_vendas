@@ -1,6 +1,7 @@
 # Análise dos Produtos Mais Vendidos
 
-**Prompt 1**
+## Prompt
+
 *Me indique qual o produto mais vendido, com análise conclusiva*
 
 **Resposta - Em texto, conforme instruções + estrutura da pergunta**
