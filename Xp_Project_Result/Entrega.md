@@ -12,5 +12,5 @@
 
 **Demais informações encontram-se presentes no diretório:** 
 
-*insights_repositorios_vendas/insights/*
+- *insights_repositorios_vendas/insights/*
 
