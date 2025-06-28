@@ -21,6 +21,7 @@ delivery_country: país de entrega
 invoice_id: número da nota fiscal
 
 ** Resposta - Informação em planilha, conforme instruções
+
 ![image](https://github.com/user-attachments/assets/1ebab5e4-67d9-44d7-b288-e5fd73250172)
 
 ## Prompt 2
