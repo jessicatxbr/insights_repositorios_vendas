@@ -33,7 +33,7 @@ import ace_tools as tools; tools.display_dataframe_to_user(name="Vendas por Site
 
 *Me indique a quantidade de vendas por país*
 
-**Resposta - Em planilha, conforme instruções _ estrutura da pergunta
+**Resposta - Em planilha, conforme instruções _ estrutura da pergunta**
 
 ![image](https://github.com/user-attachments/assets/d02a6dd0-38d5-4fc9-a82d-5399b997e6a7)
 
