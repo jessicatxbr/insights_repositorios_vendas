@@ -1,6 +1,7 @@
 # Cálculo da Quantidade de Vendas
 
 ## Prompt 1
+
 *Me indique a quantidade de vendas por site e faça a análise*
 
 **Resposta - Em tabela, conforme instruções**
@@ -8,6 +9,7 @@
 ![image](https://github.com/user-attachments/assets/87bb4e9f-6318-49f3-9f35-3fa5d20db849)
 
 **Resposta - Em texto, conforme instruções**
+
 📊 Análise por site:
 1. Shopee lidera as vendas com 64 unidades vendidas, o que indica forte presença e competitividade da plataforma para o público-alvo da marca. Pode estar associada à base de usuários sensível a preço e promoções.
 2. AliExpress aparece logo atrás com 58 unidades, sugerindo bom alcance internacional e/ou aproveitamento de demanda por produtos de nicho.
@@ -16,6 +18,7 @@
 As vendas estão bem distribuídas entre as três plataformas, com leve vantagem para a Shopee. Essa diversificação é saudável e permite à empresa atingir públicos diferentes. A performance equilibrada indica que estratégias de marketing e logística estão bem alinhadas em múltiplos canais. Recomenda-se manter a presença nas três plataformas, enquanto se observa oportunidades de expansão ou diferenciação em cada uma. 
 
 **Código**
+
 - Python:
 
 #Agrupar por site e somar as quantidades vendidas
@@ -27,6 +30,7 @@ vendas_por_site = vendas_por_site.sort_values(by='quantity', ascending=False).re
 import ace_tools as tools; tools.display_dataframe_to_user(name="Vendas por Site", dataframe=vendas_por_site)
 
 ## Prompt 2
+
 *Me indique a quantidade de vendas por país*
 
 **Resposta - Em planilha, conforme instruções _ estrutura da pergunta
@@ -38,6 +42,7 @@ Aqui está a tabela com a quantidade de vendas por país.
 Se desejar, posso analisar esses resultados e apontar tendências, oportunidades de mercado e estratégias baseadas no desempenho por região. Deseja que eu faça isso? 
 
 **Prompt Complementar**
+
 *Sim*
 
 **Responsta - Em texto, conforme instruções**
