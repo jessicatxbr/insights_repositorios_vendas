@@ -8,3 +8,4 @@
 - As instruções, gatilhos e prompts são essenciais para que a IA realize a devida interpretação da base de dados e retorne com as informações necessárias a partir do comando
 - O GPT é um ótimo assistente para tarefas e análises diárias, seja no àmbito profissional ou social
 
+**Demais informações encontram-se presentes no diretório: 
